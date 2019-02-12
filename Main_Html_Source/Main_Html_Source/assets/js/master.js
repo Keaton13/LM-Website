@@ -364,7 +364,7 @@
 		lifeLike:true,
 		startDelete:false,
 		loop:true,
-    strings: ['parallax', 'particles', 'creative', 'agency', 'marketing']
+    strings: ['Daily Online Esports Tournaments', 'Player to Player Wagers', 'Upgrading from Fiat - Playing with Crypto']
   });
 
   /* ===== FIT VIDEOS ===== */
