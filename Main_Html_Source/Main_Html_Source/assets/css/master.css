@@ -1029,6 +1029,9 @@ box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.08), 0px 6px 18px 0px rgba(0, 0, 0,
 .btn-square {border-radius:0px;}
 .btn:active, .btn.active {outline: 0;background-image: none;-webkit-box-shadow: none;box-shadow: none;}
 .btn-mobilize .btn {margin: 0 10px;}
+#name {margin-top: 5%;}
+#email {margin-top: 5%;}
+#Investor {float: right;}
 .btn.btn-xl {padding: 16px 44px;font-size: 14px;}
 .btn.btn-lg {padding: 13px 40px;font-size: 12px;}
 .btn.btn-md{padding: 12px 30px;font-size: 11px;}
@@ -1045,7 +1048,7 @@ box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.08), 0px 6px 18px 0px rgba(0, 0, 0,
 .btn-outline-color {color: #4facfe;border:2px solid #4facfe;background-color: transparent;}
 .btn-outline-color:hover, .btn-outline-color:active, .btn-outline-color:focus {color: #fff;border: 2px solid #4facfe;background-color: #4facfe;}
 .btn-outline {color: #212121;border:2px solid #e0e0e0;background-color: transparent;}
-.btn-outline:hover, .btn-outline:active, .btn-outline:focus {color: #212121;border: 2px solid #212121;background-color: transparent;}
+.btn-outline:hover, .btn-outline:active, .btn-outline:focus {color: #212121;border: 2px solid #212121;background-color: #a09a4b;}
 .btn-light {color: #212121;border-color: #fff;background-color: #fff;}
 .btn-light:hover, .btn-light:active, .btn-light:focus {color: #fff;border-color: #212121;background-color: #212121;}
 .btn-light-outline {color: #fff;border-color: #fff;background-color: transparent;}

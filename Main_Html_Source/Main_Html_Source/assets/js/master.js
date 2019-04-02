@@ -415,7 +415,15 @@
   /* ===== CONTACT FORM ===== */
 
 	$(function () {
-
+		$('#Intern').on('click', function () {
+			console.log("click")
+			$("#subject").addClass('hidden');
+			$("#haveYouInvested").addClass('hidden');
+		});
+		$('#Investor').on('click', function () {
+			$("#subject").removeClass('hidden');
+			$("#haveYouInvested").removeClass('hidden');
+		});
     $('#contact-form').validator();
 
     $('#contact-form').on('submit', function (e) {
