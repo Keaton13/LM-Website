@@ -1007,7 +1007,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
 .first-letter-round {border-radius: 50%; font-size:35px; padding: 15px; width: 65px; height: 65px; line-height: 32px;}
 
 /* Images */
-.img-responsive, .full-width{width:100%;}
+.img-responsive, .full-width{width:100%; margin-top: -15%;}
 
 /* Buttons */
 .btn, .form-control, .form-control:hover, .form-control:focus, .navbar-custom .dropdown-menu {-webkit-box-shadow: none;box-shadow: none;}
