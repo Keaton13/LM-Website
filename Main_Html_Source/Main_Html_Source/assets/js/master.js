@@ -876,3 +876,42 @@
 	});
 
 /*End Jquery*/
+
+/*Custom Javascript*/
+$('#modalBtn').on('click', function(){
+	console.log('Click is working');
+	$('#subscribeModal').removeClass('putMeInCoach');
+})
+
+$('#hoverBox').on('mouseover', function(){
+	console.log('hover working');
+	$('#remove').addClass('hidden');
+	$('#textLeft').removeClass('hidden');
+})
+$('#hoverBox').on('mouseout', function(){
+	console.log('hover working');
+	$('#remove').removeClass('hidden');
+	$('#textLeft').addClass('hidden');
+})
+$('#hoverBoxMiddle').on('mouseover', function(){
+	console.log('hover working');
+	$('#removeMiddle').addClass('hidden');
+	$('#textMiddle').removeClass('hidden');
+
+})
+$('#hoverBoxMiddle').on('mouseout', function(){
+	console.log('hover working');
+	$('#removeMiddle').removeClass('hidden');
+	$('#textMiddle').addClass('hidden');
+})
+$('#hoverBoxRight').on('mouseover', function(){
+	console.log('hover working');
+	$('#removeRight').addClass('hidden');
+	$('#textRight').removeClass('hidden');
+})
+$('#hoverBoxRight').on('mouseout', function(){
+	console.log('hover working');
+	$('#removeRight').removeClass('hidden');
+	$('#textRight').addClass('hidden');
+
+})
