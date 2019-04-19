@@ -218,40 +218,45 @@
               <div class="w3-modal-content">
                 <div class="w3-container">
                   <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                  <div id='subscribeModalContainer'>
+                  <div id='subscribeModalContainerHeader'>
                       <h1>Please fll out the following</h1>
                   </div>
-                  <div id='subscribeModalContainer'>
-                    <h4>Do you wish to subscribe to Lunch Money?</h4>
-                    <div class="col-md-6 col-sm-6">
-                        <select name="orderby" class="orderby" id="haveYouInvested">
-                        <option value="">Yes</option>
-                        <option value="">No</option>
-                      </select> <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1">
-                      </div>
-                  </div>
-                  
-                  <div id='subscribeModalContainer'>
-                      <h4>Please enter your email</h4>
-                      <div class="col-md-6 col-sm-6">
-                          <div class="form-group">
-                            <label class="sr-only" for="email">Email</label>
-                            <input type="email" name="email" class="md-input" id="modalEmail" placeholder="Email *" required data-error="Please Enter Valid Email">
-                            <div class="help-block with-errors"></div>
-                          </div>
+                  <div id="leftContainerModal">
+                    <div id='subscribeModalContainer'>
+                      <h4>Do you wish to subscribe to Lunch Money?</h4>
+                      <div class="col-md-6 col-sm-6 modalContainerDropdown">
+                          <select name="orderby" class="orderby" id="subscribe">
+                          <option value="">Yes</option>
+                          <option value="">No</option>
+                        </select> <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1">
                         </div>
                     </div>
-                  <div id='subscribeModalContainer'>
-                      <h4>Select Shirt Size</h4>
-                      <div class="col-md-6 col-sm-6 modalContainerDropdown">
-                          <select name="orderby" class="orderby" id="haveYouInvested">
-                            <option value="">S</option>
-                            <option value="">M</option>
-                            <option value="">L</option>
-                            <option value="">XL</option>
-                          </select> <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1">
-                        </div>
-                  </div>
+                    
+                    <div id='subscribeModalContainer'>
+                        <h4>Please enter your email</h4>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                              <label class="sr-only" for="email">Email</label>
+                              <input type="email" name="email" class="md-input" id="modalEmail" placeholder="Email *" required data-error="Please Enter Valid Email">
+                              <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                      </div>
+                    <div id='subscribeModalContainer'>
+                        <h4>Select Shirt Size</h4>
+                        <div class="col-md-6 col-sm-6 modalContainerDropdown">
+                            <select name="orderby" class="orderby" id="shirtSize">
+                              <option value="">S</option>
+                              <option value="">M</option>
+                              <option value="">L</option>
+                              <option value="">XL</option>
+                            </select> <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1">
+                          </div>
+                    </div>
+                </div>
+                <div id="rightContainerModal">
+                    <img class="logo logo-scrolled" src="assets/images/LMB_Logo1 (1)-1.png" alt="" id='modalPic'>
+                </div>
                   <a class="btn btn-lg btn-gradient-three btn-square" id='modalBtnClose'>Put me in coach!</a>
                 </div>
               </div>

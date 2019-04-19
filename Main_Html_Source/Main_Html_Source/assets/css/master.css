@@ -2413,13 +2413,28 @@ section.big-block .client-logo {padding:10%;}
 }
 
 /*--------MODAL---------*/
+#leftContainerModal{
+  width: 50%;
+  float: left;
+}
+
+#rightContainerModal{
+  width: 50%;
+  float: left;
+}
+
 #subscribeModalHeader{
   text-align: center;
 }
-#subscribeModalContainer{
+#subscribeModalContainerHeader{
   width: 50%;
   height: 16%;
   margin: auto
+}
+#subscribeModalContainer{
+  width: 100%;
+  height: 16%;
+  margin-left: 0%
 }
 #w3-container2{
   background-color: #cccccc;
@@ -2437,4 +2452,28 @@ section.big-block .client-logo {padding:10%;}
 }
 .boxes{
   min-width: 33.33333%;
+}
+  #subscribe{
+
+  }
+  #modalEmail{
+
+  }
+  #shirtSize{
+
+  }
+
+#modalPic{
+  animation-name: modalPic;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  width: auto;
+  height: 50%;
+}  
+@keyframes modalPic {
+  0%   {background-color:red; top:0px;}
+  25%  {background-color:yellow; top:-50px;}
+  50%  {background-color:blue; top:0px;}
+  75%  {background-color:green; top:-50px;}
+  100% {background-color:red; top:0px;}
 }
