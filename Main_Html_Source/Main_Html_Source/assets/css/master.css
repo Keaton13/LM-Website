@@ -2412,6 +2412,14 @@ section.big-block .client-logo {padding:10%;}
   display: none; 
 }
 
+#team{
+  z-index: -1;
+}
+
+#contact{
+  z-index: -1;
+}
+
 /*--------MODAL---------*/
 #leftContainerModal{
   width: 50%;
@@ -2466,7 +2474,7 @@ section.big-block .client-logo {padding:10%;}
 #modalPic{
   animation-name: modalPic;
   animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   width: auto;
   height: 50%;
 }  
@@ -2474,6 +2482,6 @@ section.big-block .client-logo {padding:10%;}
   0%   {background-color:red; top:0px;}
   25%  {background-color:yellow; top:-50px;}
   50%  {background-color:blue; top:0px;}
-  75%  {background-color:green; top:-50px;}
+  75%  {background-color:green; top:0px;}
   100% {background-color:red; top:0px;}
 }
