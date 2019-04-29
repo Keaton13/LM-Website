@@ -2421,6 +2421,10 @@ section.big-block .client-logo {padding:10%;}
 }
 
 /*--------MODAL---------*/
+#modalContainer {
+  /* background-image: url('opaque-lmb-logo.png') */
+}
+
 #leftContainerModal{
   width: 50%;
   float: left;
@@ -2485,3 +2489,9 @@ section.big-block .client-logo {padding:10%;}
   75%  {background-color:green; top:0px;}
   100% {background-color:red; top:0px;}
 }
+.icon{
+  height: 15%;
+}
+/* #backgroundImage{
+  background: url('opaque-lmb-logo (1) (1).png');
+} */

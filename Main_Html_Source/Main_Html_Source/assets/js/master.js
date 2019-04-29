@@ -907,11 +907,13 @@ $('#hoverBoxMiddle').on('mouseout', function(){
 $('#hoverBoxRight').on('mouseover', function(){
 	console.log('hover working');
 	$('#removeRight').addClass('hidden');
+	$('#removeRight2').removeClass('hidden');
 	$('#textRight').removeClass('hidden');
 })
 $('#hoverBoxRight').on('mouseout', function(){
 	console.log('hover working');
 	$('#removeRight').removeClass('hidden');
+	$('#removeRight2').addClass('hidden');
 	$('#textRight').addClass('hidden');
 
 })
