@@ -194,8 +194,9 @@
         <div class="col-md-4 col-sm-4 col-xs-12 boxes" id='hoverBoxRight'>
          <div class="feature-box text-center feature-box-gradient-three center-feature white-color">
             <img src="assets/images/Icons/lmb-web-icons-2.png" class="icon" id='removeRight'></i>
-            <h4 class="mt-0 font-600" id="removeRight">Our CEO & Lion Mario DiBella IV</h4>
             <img src="assets/images/team/Mario Portfolio edited 3.jpg" class="icon hidden" id='removeRight2'>
+            <h4 class="mt-0 font-600" id="removeRight">Our CEO</h4>
+            <h4 class="mt-0 font-600 hidden" id="marioHeader">Mario DiBella IV</h4>
           	<p class="font-400 hidden" id='textRight'>Crazy. Competitive. Compassionate. Mario is a veteran entrepreneur with a natural desire to rebel and lead others in the rebellion. When he's not leading the LMB frontier team, you can find
               him sipping whiskey, gaming, or hanging out with his wife and daughter, you know, doing alpha shit
             </p>
@@ -226,19 +227,20 @@
                       <h1>Please fll out the following</h1>
                   </div>
                   <div id="leftContainerModal">
-                    <div id='subscribeModalContainer'>
-                      <h4>Do you wish to subscribe to Lunch Money?</h4>
+                    <div id='subscribeModalContainer1'>
+                      <h5 id="subscribeParagraph">Being part of the Alpha Team means you are the first one in. You have our back 
+                        and we'll hook it up with free swag, giveaways, updates, and most importantly early access to our app.
+                      </h5>
+                      <input type="checkbox" name="vehicle1" value="Yes" id="checkBoxModal">
+                      <h4 id="subscribeCheckBoxDescription">Hell yes, I want on the AlphaTeam</h4>
                       <div class="col-md-6 col-sm-6 modalContainerDropdown">
-                          <select name="orderby" class="orderby" id="subscribe">
-                          <option value="">Yes</option>
-                          <option value="">No</option>
-                        </select> <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1">
+                    <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1">
                         </div>
                     </div>
                     
                     <div id='subscribeModalContainer'>
-                        <h4>Please enter your email</h4>
-                        <div class="col-md-6 col-sm-6">
+                        <!-- <h4>Please enter your email</h4> -->
+                        <div class="col-md-6 col-sm-6" id="modalInputDiv">
                             <div class="form-group">
                               <label class="sr-only" for="email">Email</label>
                               <input type="email" name="email" class="md-input" id="modalEmail" placeholder="Email *" required data-error="Please Enter Valid Email">
@@ -247,7 +249,7 @@
                           </div>
                       </div>
                     <div id='subscribeModalContainer'>
-                        <h4>Select Shirt Size</h4>
+                        <h4 id="shirtSizeInput">Your Shirt Size</h4>
                         <div class="col-md-6 col-sm-6 modalContainerDropdown">
                             <select name="orderby" class="orderby" id="shirtSize">
                               <option value="">S</option>
@@ -261,7 +263,7 @@
                 <div id="rightContainerModal">
                     <img class="logo logo-scrolled" src="assets/images/LMB_Logo1 (1)-1.png" alt="" id='modalPic'>
                 </div>
-                  <a class="btn btn-lg btn-gradient-three btn-square" id='modalBtnClose'>It's game time!</a>
+                  <a class="btn btn-lg btn-gradient-three btn-square" id='modalBtnClose'>I'M READY!</a>
                 </div>
               </div>
             </div>
@@ -1254,4 +1256,4 @@ Holisticly predominate extensible testing procedures for reliable supply chains.
 <!--== Javascript Plugins End ==-->
 
 </body>
-</html> -->
+</html>

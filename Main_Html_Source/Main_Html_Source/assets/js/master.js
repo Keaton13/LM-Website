@@ -909,11 +909,12 @@ $('#hoverBoxRight').on('mouseover', function(){
 	$('#removeRight').addClass('hidden');
 	$('#removeRight2').removeClass('hidden');
 	$('#textRight').removeClass('hidden');
+	$('#marioHeader').removeClass('hidden');
 })
 $('#hoverBoxRight').on('mouseout', function(){
 	console.log('hover working');
 	$('#removeRight').removeClass('hidden');
 	$('#removeRight2').addClass('hidden');
 	$('#textRight').addClass('hidden');
-
+	$('#marioHeader').addClass('hidden');
 })
