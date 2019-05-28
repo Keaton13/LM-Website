@@ -2488,6 +2488,9 @@ section.big-block .client-logo {padding:10%;}
 }
 #shirtSizeInput{
   margin-left: 5%;
+  width: 50%;
+  height: 30%;
+  float: left;
 }
 #checkBoxModal{
     width: auto;
@@ -2497,6 +2500,7 @@ section.big-block .client-logo {padding:10%;}
 }
 #subscribeCheckBoxDescription{
   margin-left: 13%;
+  /* margin-top: 2%; */
 }
 
 #modalPic{

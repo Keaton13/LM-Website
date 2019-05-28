@@ -918,3 +918,8 @@ $('#hoverBoxRight').on('mouseout', function(){
 	$('#textRight').addClass('hidden');
 	$('#marioHeader').addClass('hidden');
 })
+/*========Home Page Java========*/
+$("#modalBtn2CommingSoon").on('click', function (){
+	console.log('Click working');
+	$('#subscribeModal').removeClass('putMeInCoach');
+});
