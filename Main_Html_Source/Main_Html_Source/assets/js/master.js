@@ -887,11 +887,16 @@ $('#hoverBox').on('mouseover', function(){
 	console.log('hover working');
 	$('#remove').addClass('hidden');
 	$('#textLeft').removeClass('hidden');
+	$('#textLeftMiddle').removeClass('hidden');
+	$('#textLeftBottom').removeClass('hidden');
+
 })
 $('#hoverBox').on('mouseout', function(){
 	console.log('hover working');
 	$('#remove').removeClass('hidden');
 	$('#textLeft').addClass('hidden');
+	$('#textLeftMiddle').addClass('hidden');
+	$('#textLeftBottom').addClass('hidden');
 })
 $('#hoverBoxMiddle').on('mouseover', function(){
 	console.log('hover working');
