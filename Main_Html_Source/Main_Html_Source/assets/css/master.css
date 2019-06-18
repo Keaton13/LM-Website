@@ -754,7 +754,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
 .mt-110 {margin-top: 110px;}
 .mt-120 {margin-top: 120px;}
 
-.mb-0 {margin-bottom: 0px;}
+.mb-0 {margin-bottom: 0px;margin-top: 5%;}
 .mb-10 {margin-bottom: 10px;}
 .mb-20 {margin-bottom: 20px;}
 .mb-30 {margin-bottom: 30px;}
@@ -2470,6 +2470,12 @@ section.big-block .client-logo {padding:10%;}
 .boxes{
   min-width: 33.33333%;
 }
+#textMiddle {
+  text-align: left;
+}
+#textRight {
+  text-align: left;
+}
   #subscribe{
 
   }
@@ -2504,9 +2510,9 @@ section.big-block .client-logo {padding:10%;}
 }
 
 #modalPic{
-  animation-name: modalPic;
+  /* animation-name: modalPic;
   animation-duration: 4s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1; */
   width: auto;
   height: 50%;
 } 
