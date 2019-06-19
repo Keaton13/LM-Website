@@ -1,7 +1,7 @@
 <?php
  $to = "keatonkrieger@gmail.com";
  $subject = $_POST['subject'];
- $body = "From, ".$_POST['name']."\n\n"."Email, ".$_POST['email']."\n\n"."Residence, ".$_POST['Residence']."\n\n"."Message, "$_POST['message']."\n\n"."Have you invested, "$_POST['haveYouInvested'];
+ $body = "From, ".$_POST['name']."\n\n"."Email, ".$_POST['email']."\n\n"."Residence, ".$_POST['Residence']."\n\n"."Message, "$_POST['message'];
  if (mail($to, $subject, $body)) {
   $responseArray = array('class' => 'alert alert-success', 'message' => 'Message sent successfully. Thank you, will get back to you soon!');
   } else {
