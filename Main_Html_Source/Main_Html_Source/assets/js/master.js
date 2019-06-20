@@ -417,16 +417,28 @@
 	$(function () {
 		$('#Intern').on('click', function () {
 			console.log("click")
-			$("#subject").addClass('hidden');
+			$("#ResidenceBox").addClass('hidden');
 			$("#haveYouInvested").addClass('hidden');
 		});
 		$('#Investor').on('click', function () {
-			$("#subject").removeClass('hidden');
+			$("#ResidenceBox").removeClass('hidden');
 			$("#haveYouInvested").removeClass('hidden');
 		});
-    $('#contact-form').validator();
-
+		$('#contact-form').validator();
+		
+		$("#haveYouInvested").on('click ', function (){
+			$("#haveYouInvested").removeClass("redOutline");
+		})
+		// $("#valTwo").on('mousedown ', function (){
+		// 	console.log('2');
+		// })
     $('#contact-form').on('submit', function (e) {
+			let val = $("#haveYouInvested").val();
+			if(val == undefined){
+				$("#haveYouInvested").addClass("redOutline");
+			} else {
+				$("#haveYouInvested").removeClass("redOutline");
+			}
         if (!e.isDefaultPrevented()) {
             var url = "assets/php/contact.php";
             $.ajax({

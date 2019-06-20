@@ -2519,6 +2519,9 @@ section.big-block .client-logo {padding:10%;}
 #checkBox{
 
 }
+.redOutline{
+  border-color: red;
+}
 .w3-modal-content{
   border-radius: 15px;
 } 
@@ -2551,6 +2554,9 @@ section.big-block .client-logo {padding:10%;}
     .icon{
       height: 5%;
   }
+}
+.redOutline{
+  border-color: red;
 }
 /* #backgroundImage{
   background: url('opaque-lmb-logo (1) (1).png');
