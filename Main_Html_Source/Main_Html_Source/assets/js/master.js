@@ -416,13 +416,13 @@
 
 	$(function () {
 		$('#Intern').on('click', function () {
-			console.log("click")
 			$("#ResidenceBox").addClass('hidden');
-			$("#haveYouInvested").addClass('hidden');
+			$("#haveYouInvestedBox").addClass('hidden');
+			$
 		});
 		$('#Investor').on('click', function () {
 			$("#ResidenceBox").removeClass('hidden');
-			$("#haveYouInvested").removeClass('hidden');
+			$("#haveYouInvestedBox").removeClass('hidden');
 		});
 		$('#contact-form').validator();
 		
@@ -434,10 +434,16 @@
 		// })
     $('#contact-form').on('submit', function (e) {
 			let val = $("#haveYouInvested").val();
+			let residence = $("#Residence").val();
 			if(val == undefined){
 				$("#haveYouInvested").addClass("redOutline");
 			} else {
 				$("#haveYouInvested").removeClass("redOutline");
+			}
+			if(residence == ""){
+				$("#Residence").addClass("redOutline");
+			} else {
+				$("#Residence").removeClass("redOutline");
 			}
         if (!e.isDefaultPrevented()) {
             var url = "assets/php/contact.php";

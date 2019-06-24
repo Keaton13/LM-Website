@@ -203,7 +203,6 @@
             <button type="submit" id="Intern" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Intern Fourm <i class="ion-android-arrow-forward"></i></span></button>
             <button type="submit" id="Investor" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Investor Fourm <i class="ion-android-arrow-forward"></i></span></button>
           <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-01">
-              <input type="hidden" name="min_price" value="20"><input type="hidden" name="max_price" value="290">
             <div class="messages"></div>
             <div class="row">
               <div class="col-md-6 col-sm-6">
@@ -220,10 +219,10 @@
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
-              <div class="col-md-12 col-sm-12">
-                <div class="form-group" id="ResidenceBox">
+              <div class="col-md-12 col-sm-12" id="ResidenceBox">
+                <div class="form-group">
                   <label class="sr-only" for="subject">Residence</label>
-                  <input type="text" name="Residence" class="md-input" id="Residence" placeholder="Residence *"  required data-error="Please Enter Valid Residence">
+                  <input type="text" name="Residence" class="md-input" id="Residence" placeholder="Residence *"  >
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
@@ -234,10 +233,10 @@
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
-              <div class="col-md-12 col-sm-12">
+              <div class="col-md-12 col-sm-12" id="haveYouInvestedBox">
 
-                  <select type="value" name="haveYouInvested" class="orderby md-textarea" id="haveYouInvested" required data-error="Please Enter Valid Email">
-                    <div class="help-block with-errors"></div>
+                  <select type="value" name="haveYouInvested" class="orderby md-textarea" id="haveYouInvested">
+                    <!-- <div class="help-block with-errors"></div> -->
                     <option vale="" disabled selected>Have you invested in a company before?</option>
                     <option id="valOne" value="1">Yes</option>
                     <option id="valTwo" value="2">No</option>
