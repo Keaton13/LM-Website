@@ -200,8 +200,8 @@
           </div> -->
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-            <button type="submit" id="Intern" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Intern Fourm <i class="ion-android-arrow-forward"></i></span></button>
-            <button type="submit" id="Investor" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Investor Fourm <i class="ion-android-arrow-forward"></i></span></button>
+            <!-- <button type="submit" id="Intern" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Intern Fourm <i class="ion-android-arrow-forward"></i></span></button>
+            <button type="submit" id="Investor" name="submit" class="btn btn-outline btn-md btn-square btn-animate remove-margin"><span>Investor Fourm <i class="ion-android-arrow-forward"></i></span></button> -->
           <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-01">
             <div class="messages"></div>
             <div class="row">
@@ -219,30 +219,31 @@
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
-              <div class="col-md-12 col-sm-12" id="ResidenceBox">
-                <div class="form-group">
-                  <label class="sr-only" for="subject">Residence</label>
-                  <input type="text" name="Residence" class="md-input" id="Residence" placeholder="Residence *"  >
-                  <div class="help-block with-errors"></div>
+              <div class="col-md-12 col-sm-12">
+                  <div class="form-group">
+                    <label class="sr-only" for="Residence">Residence</label>
+                    <input type="text" name="Residence" class="md-input" id="Residence" placeholder="Residence *" required data-error="Your Residence is Required">
+                    <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-              </div>
               <div class="col-md-12 col-sm-12">
                 <div class="form-group">
                   <label class="sr-only" for="message">One sentence on why you love crypto?</label>
-                  <textarea name="message" class="md-textarea" id="message" rows="7" placeholder="One sentence on why you love crypto?" required data-error="Please, Leave us a message"></textarea>
+                  <textarea name="message" class="md-textarea" id="message" rows="7" placeholder="One sentence on why you love crypto?"></textarea>
                   <div class="help-block with-errors"></div>
                 </div>
               </div>
               <div class="col-md-12 col-sm-12" id="haveYouInvestedBox">
-
-                  <select type="value" name="haveYouInvested" class="orderby md-textarea" id="haveYouInvested">
+                <div class="form-group">
+                  <select type="value" name="haveYouInvested" class="orderby md-textarea" id="haveYouInvested" required data-error="Please, Leave us a message">
                     <!-- <div class="help-block with-errors"></div> -->
                     <option vale="" disabled selected>Have you invested in a company before?</option>
                     <option id="valOne" value="1">Yes</option>
                     <option id="valTwo" value="2">No</option>
-                  </select> <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1">
+                  </select> <input type="hidden" placeholder='Have you invested in a company before' name="paged" value="1" required data-error="Please, Leave us a message">
                   <!-- <input type="hidden" name="min_price" value="20"><input type="hidden" name="max_price" value="290"> -->
-
+                  <div class="help-block with-errors"></div>
+                </div>
               </div> 
               <div class="col-md-12 col-sm-12">
                 <div class="text-left mt-20">

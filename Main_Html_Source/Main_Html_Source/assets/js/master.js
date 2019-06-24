@@ -421,6 +421,8 @@
 			$
 		});
 		$('#Investor').on('click', function () {
+			let input = $('<input type="text" name="Residence" class="md-input" id="Residence" placeholder="Residence *" required data-error="Please Enter Residence" >');
+
 			$("#ResidenceBox").removeClass('hidden');
 			$("#haveYouInvestedBox").removeClass('hidden');
 		});
@@ -429,6 +431,9 @@
 		$("#haveYouInvested").on('click ', function (){
 			$("#haveYouInvested").removeClass("redOutline");
 		})
+		$('#Residence').on('click', function (){
+			$("#Residence").removeClass("redOutline");
+		});
 		// $("#valTwo").on('mousedown ', function (){
 		// 	console.log('2');
 		// })
@@ -443,7 +448,7 @@
 			if(residence == ""){
 				$("#Residence").addClass("redOutline");
 			} else {
-				$("#Residence").removeClass("redOutline");
+				$("#Reside").removeClass("redOutline");
 			}
         if (!e.isDefaultPrevented()) {
             var url = "assets/php/contact.php";
