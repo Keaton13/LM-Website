@@ -1,5 +1,8 @@
 <?php
- $to = "keatonkrieger@gmail.com";
+ $to = array(
+   "keatonkrieger@gmail.com",
+   "bajabuggy313@gmail.com",
+ );
  $subject = $_POST['subject'];
  $body = "From, ".$_POST['name']."\n\n"."Email, ".$_POST['email']."\n\n"."Residence, ".$_POST['Residence']."\n\n"."Message, ".$_POST['message']."\n\n"."Invest, ".$_POST['haveYouInvested'];
  if (mail($to, $subject, $body)) {
