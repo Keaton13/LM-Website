@@ -1,7 +1,7 @@
 <?php
 $recipients = array(
   "keatonkrieger@gmail.com",
-  "bajabuggy313@gmail.com",
+  "bajabuggy313@gmail.com"
 );
  $to = implode(',', $recipients);
  $subject = $_POST['subject'];
