@@ -2429,7 +2429,7 @@ section.big-block .client-logo {padding:10%;}
   width: 100%;
   float: left;
   height: 75%;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   /* border: 1px solid black; */
 }
 
@@ -2494,6 +2494,11 @@ section.big-block .client-logo {padding:10%;}
   }
 #subscribeParagraph{
   margin-left: 4%;
+}
+#modalHeader{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 7%;
 }
 #modalInputDiv{
   width: 88%;
@@ -2562,6 +2567,7 @@ section.big-block .client-logo {padding:10%;}
     outline: 0 !important;
     width: 75% !important;
     height: 40% !important;
+    min-height: 436px;
   }
     .white-bg{
       height: 94.5%;
